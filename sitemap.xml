@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/usage/installing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/usage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/usage/cheat-sheet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/contributing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/usage/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/usage/further-reading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adelbertc.github.io/kubectl-trace/tags/</loc>
+  </url>
+  
+</urlset>

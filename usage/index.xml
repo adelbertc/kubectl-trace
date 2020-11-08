@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usage on kubectl-trace</title>
+    <link>https://adelbertc.github.io/kubectl-trace/usage/</link>
+    <description>Recent content in Usage on kubectl-trace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://adelbertc.github.io/kubectl-trace/usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing</title>
+      <link>https://adelbertc.github.io/kubectl-trace/usage/installing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adelbertc.github.io/kubectl-trace/usage/installing/</guid>
+      <description>There are a couple ways to install kubectl-trace on your machine.
+Krew You can install kubectl trace using the Krew, the package manager for kubectl plugins.
+Once you have Krew installed just run:
+kubectl krew install trace You&amp;rsquo;re ready to go!
+Pre-built binaries See the release page for the full list of pre-built assets.
+The commands here show amd64 versions, 386 versions are available in the releases page.
+Linux
+curl -L -o kubectl-trace.</description>
+    </item>
+    
+    <item>
+      <title>Cheat sheet</title>
+      <link>https://adelbertc.github.io/kubectl-trace/usage/cheat-sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adelbertc.github.io/kubectl-trace/usage/cheat-sheet/</guid>
+      <description>You don&amp;rsquo;t need to setup anything on your cluster before using it, please don&amp;rsquo;t use it already on a production system, just because this isn&amp;rsquo;t yet 100% ready.
+Run a program from string literal In this case we are running a program that probes a tracepoint on the node ip-180-12-0-152.ec2.internal.
+kubectl trace run ip-180-12-0-152.ec2.internal -e &amp;quot;tracepoint:syscalls:sys_enter_* { @[probe] = count(); }&amp;quot; Run a program from file Here we run a program named read.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://adelbertc.github.io/kubectl-trace/usage/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adelbertc.github.io/kubectl-trace/usage/architecture/</guid>
+      <description>Since it is a kubectl plugin, kubectl-trace doesn&amp;rsquo;t require you to install any component directly to your Kubernetes cluster in order to execute your bpftrace programs, however when you point it to a cluster, it will schedule a temporary job there called trace-runner that executes the program.
+This figure, shows the general idea:</description>
+    </item>
+    
+    <item>
+      <title>Further reading</title>
+      <link>https://adelbertc.github.io/kubectl-trace/usage/further-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adelbertc.github.io/kubectl-trace/usage/further-reading/</guid>
+      <description>kubectl-trace can run any bpftrace program, many of which can be found here:
+ bpftrace One Liners bpftrace Reference Guide &amp;ldquo;official&amp;rdquo; bpftrace tools  </description>
+    </item>
+    
+  </channel>
+</rss>
